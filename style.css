@@ -1,0 +1,37 @@
+.container{
+	justify-content: center;
+	border: 3px solid rgba(2,2,5,1);
+	display:flex;
+	width:2000px;
+	height:1400px;
+	align-items: center;
+	transition: all 1s;
+	background-image: url(image/got2.jpg);
+	background-size: cover;
+}
+.container:hover{
+	transform: scale(1.1);
+}
+.btn{
+	border-radius:150px;
+}
+body{
+	background-image: url(image/got2.jpg);
+	background-size: cover;
+}
+label{
+	color:white;
+}
+.indicates-required{
+	color:white;
+}
+h2{
+	color:white;
+}
+.clear{
+	color:white;
+
+}
+.datefield{
+	color:white;
+}
